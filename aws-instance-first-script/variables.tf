@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "ami_id" {
-  type = "map"
+  type = map(string)
 
   default = {
     us-east-1    = "ami-0b0dcb5067f052a63"
